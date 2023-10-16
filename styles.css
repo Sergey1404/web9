@@ -16,66 +16,61 @@ footer {
   font-family: sans-serif;
 }
 
-.w {
-
-}
-
-.a {
-
-}
-
-.s {
-
-}
-
-.d {
-
-}
-
-.j {
-
-}
-
-.k {
-
-}
-
-.l {
-
-}
-
 .set {
+  width: 600px;
+  height: 400px;
+  position: relative;
   margin: 10% auto;
 }
 
-.game-over {
-  background-color: red;
-  opacity: 0.8;
+.w {
+  position: absolute;
+  bottom: 200px;
+  left: calc(50% - 175px);
 }
 
-.pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
-  opacity: 0.5;
+.a {
+  position: absolute;
+  bottom: 200px;
+  left: calc(50% + 25px);
 }
 
-.red {
-  color: red;
+.s {
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% - 257px);
+}
+
+.d {
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% + 125px);
+}
+
+.j {
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% + 200px);
+}
+
+.k {
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% - 125px);
+}
+
+.l {
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% - 350px);
 }
 
 .drum {
-  outline: none;
-  border: 10px solid #404B69;
-  font-size: 5rem;
-  font-family: 'Arvo', cursive;
-  line-height: 2;
-  font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
-  border-radius: 15px;
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  margin: 10px;
-  background-color: white;
+  background-color: transparent;
+  border: 0;
+  border-radius: 1500px;
+}
+
+.hit {
+  background: #DA0463;
 }
